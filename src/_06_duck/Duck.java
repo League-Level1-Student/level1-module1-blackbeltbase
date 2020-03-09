@@ -33,8 +33,8 @@ class Chameleon{
 		System.out.println("It is as still as a rock and looks like a "+plantBlend+".");
 	}
 	
-	public void eat(int chosenBug) {
-		System.out.println("The chameleon thwips its toungue out and eats "+chosenBug+".");
+	public void eat(String chosenBug) {
+		System.out.println("The chameleon thwips its toungue out and eats a "+chosenBug+".");
 	}
 	public void walk() {
 	   System.out.println("The chameleon moves like a "+plant+" in the wind.");
